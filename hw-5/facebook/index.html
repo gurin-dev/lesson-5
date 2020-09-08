@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaceBook HomeWork</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header flex-row">
+        <div class="header__logo-n-search flex-row">
+            <a href="#" class="header__logo"><i class=" fab fa-facebook-square"></i></a>
+            <div class="header__search">
+                <form action="" class="header__search-form">
+                    <input type="search" class="header__search-input" placeholder="Page name here">
+                    <button type="button" class="header__search-button"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="header__links flex-row">
+            <div class="header__links-named flex-row">
+                <a href="#" class="header__links-named-link flex-row"><img src="./img/avatar.jpg" alt="" class="header-link-image">Gurin Andrii</a>
+                <div class="header__links-separator"></div>
+                <a href="#" class="header__links-named-link">Home</a>
+            </div>
+            <div class="header__links-unnamed flex-row">
+                <a href="#" class="header__links-unnamed-link"><i class="fas fa-user-friends"></i></a>
+                <a href="#" class="header__links-unnamed-link"><i class="fas fa-comments"></i></a>
+                <a href="#" class="header__links-unnamed-link"><i class="fas fa-globe-americas"></i></a>
+                <div class="header__links-separator"></div>
+                <a href="#" class="header__links-unnamed-link"><i class="fas fa-user-lock"></i></a>
+                <a href="#" class="header__links-unnamed-link"><i class="fas fa-caret-down"></i></a>
+            </div>
+        </div>
+    </header>
+    <main class="main flex-row">
+        <aside class="sidebar flex-column">
+            <div class="sidebar__avatar flex-row"><img src="./img/avatar.jpg" alt="Gutin Andrii" class="sidebar__avatar-image"></div>
+            <p class="sidebar__name">Gurin Andrii</p>
+            <p class="sidebar__nickname">@gurin-dev</p>
+            <nav class="sidebar__menu flex-column">
+                <a href="#" class="sidebar__menu-item active-menu-item">Home</a>
+                <a href="#" class="sidebar__menu-item">About</a>
+                <a href="#" class="sidebar__menu-item">Photos</a>
+                <a href="#" class="sidebar__menu-item">Likes</a>
+                <a href="#" class="sidebar__menu-item">Video</a>
+                <a href="#" class="sidebar__menu-item">Posts</a>
+            </nav>
+            <button class="sidebar__button">Create a Page</button>
+        </aside>
+        <section class="main-content flex-column">
+            <img src="./img/cover.jpg" class="main-content__cover">
+            <div class="main-content__buttons flex-row">
+                <div class="main-content__buttons-button-group">
+                    <a href="#" class="main-content__buttons-button-group_button button-group_button-active"><i class="fas fa-thumbs-up"></i> Liked</a>
+                    <a href="#" class="main-content__buttons-button-group_button"><i class="fab fa-facebook-messenger"></i> Message</a>
+                    <a href="#" class="main-content__buttons-button-group_button"><i class="fas fa-ellipsis-h"></i> More</a>
+                </div>
+                <a href="#" class="main-content__buttons-send-button">Send message</a>
+            </div>
+            <div class="main-content__primary flex-row">
+                <div class="main-content__primary_posts flex-column">
+                    <div class="main-content__primary_posts-write">
+                        <div class="primary_posts__write-header flex-row">
+                            <span class="primary_posts__write-header-status"><i class="fas fa-pencil-alt"></i>Status</span> 
+                            <span class="primary_posts__write-header-photo"><a href="#"><i class="fas fa-camera-retro"></i>Photo/Video</a></span>
+                            <span class="primary_posts__write-header-dropdown flex-row"><img src="./img/avatar.jpg" alt="" class="primary_posts__write-header-avatar"><a href="#"><i class="fas fa-caret-down"></i></a></span> 
+                        </div>
+                        <div class="main-content__primary_posts-write-body flex-row">
+                            <img src="./img/avatar.jpg" alt="" class="post-avatar">
+                            <form action=""><input type="text" autofocus name="write-post" id="" class="main-content__primary_posts-write-post_input" placeholder="Write something on this Page..."></form>
+                        </div>
+                    </div>
+                    <div class="main-content__primary_posts-post flex-column">
+                        <div class="primary_posts-post-header flex-row">
+                            <div class="primary_posts-post-header_info flex-row">
+                                <img src="./img/avatar.jpg" alt="" class="post-avatar">
+                                <div class="primary_posts-post-header_info-details flex-column">
+                                    <a href="#" class="primary_posts-post-header_info-details-author">Gurin Andrii</a>
+                                    <span class="primary_posts-post-header_info-details-date">1 January • <i class="far fa-clock"></i> • <i class="fas fa-globe-americas"></i> </span>
+                                </div>
+                            </div>
+                            <div class="primary_posts-post-header_info-pin flex-row">
+                                <a href="#" class="primary_posts-post-header_info-pin-pinned"><i class="fas fa-thumbtack"></i></a></i>
+                                <a href="#" class="primary_posts-post-header_info-pin-dropdown"><i class="fas fa-chevron-down"></i></a>
+                            </div>
+                        </div>
+                        <div class="primary_posts-post-body">
+                            <p class="primary_posts__post-body-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias neque voluptatum quibusdam suscipit asperiores voluptatem saepe, error dolorum, sequi totam expedita ea nesciunt minima fugiat. Iure, exercitationem? Facere quo ad aperiam, dolore quia reiciendis tenetur sapiente nam nobis at recusandae modi impedit voluptas culpa rem cupiditate natus corporis obcaecati repellat repudiandae. Odio quo tenetur odit ab voluptates deleniti reprehenderit esse aperiam explicabo, quae totam labore repellendus reiciendis distinctio eos eligendi blanditiis architecto obcaecati quod aliquam! Voluptates neque officia nisi in!</p>
+                            <img src="./img/ca32f0d4769dfe79c0d5999727424967.jpg" alt="" class="primary_posts__post-body-image">
+                        </div>
+
+                    </div>
+
+                    <div class="main-content__primary_posts-post flex-column">
+                        <div class="primary_posts-post-header flex-row">
+                            <div class="primary_posts-post-header_info flex-row">
+                                <img src="./img/avatar.jpg" alt="" class="post-avatar">
+                                <div class="primary_posts-post-header_info-details flex-column">
+                                    <a href="#" class="primary_posts-post-header_info-details-author">Gurin Andrii</a>
+                                    <span class="primary_posts-post-header_info-details-date">30 Decemder • <i class="far fa-clock"></i> • <i class="fas fa-globe-americas"></i> </span>
+                                </div>
+                            </div>
+                            <div class="primary_posts-post-header_info-pin flex-row">
+                                <a href="#" class="primary_posts-post-header_info-pin-pinned unpinned"><i class="fas fa-thumbtack"></i></a></i>
+                                <a href="#" class="primary_posts-post-header_info-pin-dropdown"><i class="fas fa-chevron-down"></i></a>
+                            </div>
+                        </div>
+                        <div class="primary_posts-post-body">
+                            <p class="primary_posts__post-body-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias neque voluptatum quibusdam suscipit asperiores voluptatem saepe, error dolorum, sequi totam expedita ea nesciunt minima fugiat. Iure, exercitationem?</p>
+                            <img src="./img/best-hearing-animals-1200x640-min.jpg,qrev=3E62,ala=en-GB.pagespeed.ce.IHr0skVhF8.jpg" class="primary_posts__post-body-image">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="main-content__primary_info">
+                    <div class="main-content__primary_info-catalog block">Category</div>
+                    <div class="main-content__primary_info-search block flex-row">
+                        <i class="fas fa-search"></i>
+                        <form action=""><input type="search" name="" id="" placeholder="Search for posts on this Page" class="block-search"></form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <script src="https://kit.fontawesome.com/95fce497df.js" crossorigin="anonymous"></script>
+    </footer>
+</body>
+</html>
